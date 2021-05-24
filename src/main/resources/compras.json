@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "fatura_id": 1,
+    "cliente_id": 579,
+    "data": "2020-04-01",
+    "descricao": "Placa de Vídeo GTX 1600",
+    "valor": 700.51
+  },
+  {
+    "id": 2,
+    "fatura_id": 1,
+    "cliente_id": 579,
+    "data": "2020-04-02",
+    "descricao": "Placa wifi",
+    "valor": 300.99
+  },
+  {
+    "id": 3,
+    "fatura_id": 1,
+    "cliente_id": 579,
+    "data": "2020-04-03",
+    "descricao": "Mouse game",
+    "valor": 250.28
+  },
+  {
+    "id": 4,
+    "fatura_id": 1,
+    "cliente_id": 579,
+    "data": "2020-04-03",
+    "descricao": "Joystick de xbox",
+    "valor": 430.52
+  },
+  {
+    "id": 1,
+    "fatura_id": 2,
+    "cliente_id": 579,
+    "data": "2020-05-09",
+    "descricao": "Pizza",
+    "valor": 89.99
+  },
+  {
+    "id": 2,
+    "fatura_id": 2,
+    "cliente_id": 579,
+    "data": "2020-05-29",
+    "descricao": "Sushi",
+    "valor": 120.33
+  },
+  {
+    "id": 3,
+    "fatura_id": 2,
+    "cliente_id": 579,
+    "data": "2020-05-20",
+    "descricao": "Outback",
+    "valor": 400.27
+  },
+  {
+    "id": 1,
+    "fatura_id": 1,
+    "cliente_id": 196,
+    "data": "2020-1-20",
+    "descricao": "Cerveja",
+    "valor": 37
+  },
+  {
+    "id": 2,
+    "fatura_id": 1,
+    "cliente_id": 196,
+    "data": "2020-1-20",
+    "descricao": "Cerveja",
+    "valor": 25.51
+  },
+  {
+    "id": 1,
+    "fatura_id": 1,
+    "cliente_id": 1881,
+    "data": "2020-1-20",
+    "descricao": "Cerveja",
+    "valor": 282.22
+  },
+  {
+    "id": 2,
+    "fatura_id": 1,
+    "cliente_id": 1881,
+    "data": "2020-1-20",
+    "descricao": "Cerveja",
+    "valor": 82.82
+  },
+
+  {
+    "id": 3,
+    "fatura_id": 1,
+    "cliente_id": 1881,
+    "data": "2020-1-20",
+    "descricao": "RedBull",
+    "valor": 82.82
+  }
+]
