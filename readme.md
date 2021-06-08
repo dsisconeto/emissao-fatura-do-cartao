@@ -18,23 +18,25 @@ Imprimir a fatura do cliente de forma detalhada no _stdout_.
 
 ### Verificação
 
- - Deve conter o mês de referência.
- - Deve conter _id_ da fatura.
- - Deve conter a data de fechamento.
- - Deve conter a data de vencimento.
- - Deve conter a melhor data para comprar.
- - Deve imprimir a mensagem “Não há fatura para o mês”, caso não tenha fatura para o cliente no mês informado.
- - Deve imprimir a mensagem “Cliente não existe”, caso o cliente informado não exista.
- - A data de fechamento deve ser 10 dias antes do vencimento.  
- - Deve conter o valor total que é a soma de todas as compras menos os descontos.
- - Cliente com mais de 2 anos ganham desconto de 20%.
-   - Se o cliente não tiver direito não deve ser apresentado.
- - Quando não houver compras, deve apresentar a mensagem “Vamos gastar Mais”.
+ - Deve conter os seguintes dados:
+   - O mês de referência.
+   - _Id_ da fatura.
+   - Data de fechamento.
+   - Data de vencimento.
+   - A melhor data para comprar.
+   - Valor total que é a soma de todas as compras menos os descontos.
  - Cada compra da fatura deve conter:
    - Referência
    - Data
    - Descrição
    - Valor
+ - Deve imprimir a mensagem “Não há fatura para o mês”, caso não tenha fatura para o cliente no mês informado.
+ - Deve imprimir a mensagem “Cliente não existe”, caso o cliente informado não exista.
+ - A data de fechamento deve ser 10 dias antes do vencimento.  
+ - Cliente com mais de 2 anos ganham desconto de 20%.
+   - Se o cliente não tiver direito não deve ser apresentado.
+ - Quando não houver compras, deve apresentar a mensagem “Vamos gastar Mais”.
+
    
 ### Exemplo para inspiração:
 
