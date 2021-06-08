@@ -58,7 +58,7 @@ Cliente com mais de 2 anos ganha desconto de 20%.
 
 
 ### Links.
-
+- https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 - https://gradle-pitest-plugin.solidsoft.info/
 - https://www.codurance.com/publications/2020/01/27/minimum-valuable-increment
 - https://www.codurance.com/publications/2017/10/23/outside-in-design
