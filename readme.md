@@ -4,9 +4,11 @@ Você deve desenvolver uma CLI que imprima no _stdout_ a fatura do cartão de cr
 e o mês da fatura como argumento para o programa.
 
 O programa será chamado assim.
+
 ``java -jar meuprograma --cliente=1212 --mes=04``
 
-Os dados vão está nos arquivos json.
+Os dados estão em arquivos json que estão em resources.
+
 
 ### Valor:
 
