@@ -1,13 +1,12 @@
-# Impressão da fatura do cartão
+# Emissão da fatura do cartão
 
-Você deve desenvolver uma CLI que imprima no _stdout_ a fatura do cartão de crédito, passando o _id_ do cliente
-e o mês da fatura como argumento para o programa.
+Você deve desenvolver uma aplicação que faça a emissão da fatura do cartão de crédito, dado um cliente e mês da fatura.
 
-O programa será chamado assim.
+
+
+
 
 ``java -jar meuprograma --cliente=1212 --mes=04``
-
-Os dados estão em arquivos json que estão em resources.
 
 
 ### Valor:
@@ -16,11 +15,10 @@ Possibilitar o cliente ver a fatura detalhada para entender os seus gastos.
 
 ### Incremento
 
-Imprimir a fatura do cliente de forma detalhada no _stdout_.
+Emissão da fatura do cliente de forma detalhada.
 
 ### Verificação
-
- - Deve conter os seguintes dados:
+ - A faturada emitida deve conter os seguintes dados:
    - O mês de referência.
    - _Id_ da fatura.
    - Data de fechamento.
@@ -32,13 +30,12 @@ Imprimir a fatura do cliente de forma detalhada no _stdout_.
    - Data
    - Descrição
    - Valor
- - Deve imprimir a mensagem “Não há fatura para o mês”, caso não tenha fatura para o cliente no mês informado.
- - Deve imprimir a mensagem “Cliente não existe”, caso o cliente informado não exista.
  - A data de fechamento deve ser 10 dias antes do vencimento.  
  - Cliente com mais de 2 anos ganham desconto de 20%.
-   - Se o cliente não tiver direito não deve ser apresentado.
+   - Se o cliente não tiver direito não deve ser apresentado
  - Quando não houver compras, deve apresentar a mensagem “Vamos gastar Mais”.
-
+ - Deve exibir a mensagem “Não há fatura para o mês”, caso não tenha fatura para o cliente no mês informado.
+ - Deve exibir a mensagem “Cliente não existe”, caso o cliente informado não exista.
    
 ### Exemplo para inspiração:
 
@@ -55,12 +52,3 @@ Imprimir a fatura do cliente de forma detalhada no _stdout_.
 
 Cliente com mais de 2 anos ganha desconto de 20%.
 </pre>
-
-
-### Links.
-- https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
-- https://gradle-pitest-plugin.solidsoft.info/
-- https://www.codurance.com/publications/2020/01/27/minimum-valuable-increment
-- https://www.codurance.com/publications/2017/10/23/outside-in-design
-- https://philcalcado.com/2010/12/23/how_to_write_a_repository.html
-- https://xp123.com/articles/3a-arrange-act-assert
