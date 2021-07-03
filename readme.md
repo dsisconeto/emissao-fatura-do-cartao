@@ -26,7 +26,7 @@ Emissão da fatura do cliente de forma detalhada.
    - Data de fechamento.
    - Data de vencimento.
    - A melhor data para comprar.
-   - Valor total que é a soma de todas as compras menos os descontos.
+   - Valor total.
  - Cada compra da fatura deve conter:
    - Referência
    - Data
