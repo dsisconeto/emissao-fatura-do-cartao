@@ -4,7 +4,9 @@ Você deve desenvolver uma aplicação que faça a emissão da fatura do cartão
 
 
 
+## Arquitetura
 
+Nossa aplicação iniciamente será uma CLI que aceita como parâmetro o cliente e mês conforme o exemplo abaixo.
 
 ``java -jar meuprograma --cliente=1212 --mes=04``
 
