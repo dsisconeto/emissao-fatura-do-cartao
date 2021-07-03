@@ -1,4 +1,4 @@
-package sisconeto.dejair.impressaocartao;
+package sisconeto.dejair.emissaofatura;
 
 public class Main {
     public static void main(String[] args) {
