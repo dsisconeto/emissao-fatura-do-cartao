@@ -1,6 +1,6 @@
 # Emissão da fatura do cartão
 
-Você deve desenvolver uma aplicação que faça a emissão da fatura do cartão de crédito, dado um cliente e mês da fatura.
+Você deve desenvolver uma aplicação que faça a emissão da fatura do cartão, dado um cliente e o mês da fatura.
 
 
 
