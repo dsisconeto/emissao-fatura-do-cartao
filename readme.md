@@ -8,7 +8,7 @@ Você deve desenvolver uma aplicação que faça a emissão da fatura do cartão
 
 Nossa aplicação iniciamente será uma CLI que aceita os parâmetros cliente e mês conforme o exemplo abaixo.
 
-``java -jar meuprograma --cliente=1212 --mes=04``
+``java -jar emissao-fatatura-do-cartao.jar --cliente=1212 --mes=04``
 
 
 ### Valor:
@@ -38,7 +38,16 @@ Emissão da fatura do cliente de forma detalhada.
  - Quando não houver compras, deve apresentar a mensagem “Vamos gastar Mais”.
  - Deve exibir a mensagem “Não há fatura para o mês”, caso não tenha fatura para o cliente no mês informado.
  - Deve exibir a mensagem “Cliente não existe”, caso o cliente informado não exista.
-   
+
+### Observação 
+
+O usuário sempre enviará os dados de entrada cliente e mês dessa forma:
+``java -jar emissao-fatatura-do-cartao.jar --cliente=1212 --mes=04``
+então não é necessário validar:
+ - Ordem dos paramentros.
+ - Se eles estão ausentes.
+ - Se não são números.
+
 ### Exemplo para inspiração:
 
  <pre>
