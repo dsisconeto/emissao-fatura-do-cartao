@@ -42,7 +42,9 @@ Emissão da fatura do cliente de forma detalhada.
 ### Observação 
 
 O usuário sempre enviará os dados de entrada cliente e mês dessa forma:
+
 ``java -jar emissao-fatatura-do-cartao.jar --cliente=1212 --mes=04``
+
 então não é necessário validar:
  - Ordem dos paramentros.
  - Se eles estão ausentes.
