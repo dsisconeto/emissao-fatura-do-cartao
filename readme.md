@@ -13,7 +13,7 @@ Nossa aplicação iniciamente será uma CLI que aceita os parâmetros cliente e 
 
 ### Valor:
 
-Possibilitar o cliente ver a fatura detalhada para entender os seus gastos.
+Possibilitar o cliente visualizar a fatura detalhada para entender os seus gastos.
 
 ### Incremento
 
